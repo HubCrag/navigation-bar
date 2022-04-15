@@ -1,9 +1,6 @@
-## Hubcrag Background Lines Effect
+## Hubcrag Navigation Bar
 
-### Frontend dependencies
-
-
-### Setup demo project
+### [Watch it on youtube](https://youtu.be/ie0FtJ5JnuM)
 
 `npm install` or `yarn install`
 
