@@ -1,0 +1,60 @@
+.navbar {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  &__wrapper {
+    height: 88px;
+    background-color: $bg-menu;
+    display: flex;
+    align-items: center;
+  }
+  &__list {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  &__item {
+    color: $color-menu-default;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+    &-icon {
+      margin-bottom: 4px;
+      
+      .icon {
+        fill: $color-menu-default;
+        &-home,
+        &-shop,
+        &-search,
+        &-profile {
+          .bg {
+            display: none;
+          }
+        }
+      }
+    }
+    &-txt {
+      font-size: 14px;
+      line-height: 17px;
+    }
+    &.is-active {
+      color: $color-menu-active;
+      .icon {
+        fill: $color-menu-active;
+        &-home,
+        &-shop,
+        &-search,
+        &-profile  {
+          .br {
+            display: none;
+          }
+          .bg {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
