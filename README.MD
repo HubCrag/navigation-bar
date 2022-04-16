@@ -2,6 +2,8 @@
 
 ### [Watch it on youtube](https://youtu.be/ie0FtJ5JnuM)
 
+### Setup demo project
+
 `npm install` or `yarn install`
 
 ### Start demo project
